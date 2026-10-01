@@ -1,0 +1,23 @@
+name: MantraLab AutoOps
+on:
+  schedule:
+    - cron: "0 3 * * *"   # 03:00 chaque jour
+  workflow_dispatch:
+
+jobs:
+  auto-ops:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Mise à jour auto des métadonnées
+        run: |
+          echo "Last-AutoOps: $(date)" >> ops/autoops.log
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "AutoOps: mise à jour quotidienne"
+          git push
