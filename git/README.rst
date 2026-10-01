@@ -11,6 +11,28 @@ Contenu :
 - hooks/ : scripts de contrôle automatique
 ```
 
+```text
+.git/
+│
+├── README.rst
+│
+├── discipline/
+│   ├── RULES.rst
+│   ├── SECURITY.rst
+│   ├── STRUCTURE.rst
+│   └── SIGNATURE.rst
+│
+├── templates/
+│   ├── COMMIT_TEMPLATE.txt
+│   └── MERGE_TEMPLATE.txt
+│
+└── hooks/
+    ├── pre-commit
+    ├── prepare-commit-msg
+    ├── commit-msg
+    └── post-commit
+```
+
 Auteur :
 The MadDoG.tmdg
 MantraLab Defense Division
