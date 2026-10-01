@@ -1,11 +1,12 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+###### ✅ Version 2.9 et mise à jour
+###### 🛡️ Recherche Tactique
 # ✅ MantraLab
-```text
-🛡️ Moteur de Recherche : défensif, scripts, extensions, cyber outils
+```markdown
+🛡️ Moteur de Recherche :
+- défensif par scripts,
+- extensions et cyber outils
 ```
-
----
-
 ```schema
 ███╗   ███╗ █████╗ ███╗   ██╗████████╗██████╗  █████╗ ██╗      █████╗ ██████╗ 
 ████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗
@@ -15,160 +16,88 @@
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
----
-
-###### ✅ Version 2.9 et mise à jour
-###### 🛡️ Moteur de Recherche Tactique
-
-⚙️ Présentation
-MantraLab est une plateforme cyber‑défensive modulaire intégrant :
-
+### ⚙️ Présentation
+>MantraLab est une plateforme cyber‑défensive modulaire intégrant :
+```text
 - Un moteur de recherche spécialisé défense
 - Des outils OSINT, forensic, réseau
 - Des scripts tactiques (Python, Bash, PowerShell, C)
 - Des extensions navigateur orientées sécurité
 - Des playbooks militaires, procédures, checklists
 - Une architecture disciplinée (gitOPS, manifests, MDL‑1.0)
-
----
-
-🧩 Architecture (vue globale)
-`text
-MANTRALAB/
-│
-├── git/ → Discipline du dépôt
-├── gitOPS/ → Automatisation & procédures
-├── .config/ → Configuration interne
-├── src/ → Moteur de recherche
-│   ├── core/ → Indexation, analyse
-│   ├── api/ → Interfaces
-│   └── ui/ → Interface utilisateur
-│
-├── tools/ → Outils OSINT, network, forensic
-├── scripts/ → Scripts Python, Bash, PowerShell, C
-├── docs/ → Documentation, playbooks, procédures
-└── manifests/ → Manifestes, MDL‑1.0
-`
-
----
-
-🔥 Fonctionnalités principales
-
-🔎 Moteur de recherche cyber
+```
+### 🧩 Architecture
+```markdown
+> VOIR **docs/architecture.md**
+```
+### 🔥 Fonctionnalités principales
+>🔎 Moteur de recherche cyber
+```text
 - Indexation ciblée (réseau, OSINT, forensic)
 - Filtres avancés : SIGINT, TECHINT, WEBINT
 - Analyse automatique des sources
-
-🧰 Hub d’outils de défense
+```
+>🧰 Hub d’outils de défense
+```text
 - Scripts Python / Bash / PowerShell
 - Extensions navigateur (headers, fingerprinting)
 - Scanners réseau & forensic
-
-🛡️ Packs Défense
+```
+>🛡️ Packs Défense
+```text
 - Web Recon Pack  
 - Android Defense Pack  
 - Network Shield Pack  
 - OSINT Tactical Pack  
-
-📚 Documentation militaire
+```
+>📚 Documentation militaire
+```text
 - Playbooks  
 - Checklists  
 - Procédures d’emploi  
 - Guides d’intervention  
+```
 
----
-
-🧨 Objectifs opérationnels
+### 🧨 Objectifs opérationnels
+```markdown
 - Centraliser les outils cyber‑défensifs  
 - Offrir un moteur de recherche spécialisé  
 - Fournir une plateforme robuste, modulaire, militaire  
 - Respecter les licences open‑source  
-- Protéger MantraLab via MantraLab‑1.0 (MDL‑1.0)  
+- Protéger MantraLab via MantraLab‑1.0 (MDL‑1.0)
+```
 
----
-
-🧭 Milestone — MantraLab v2.9 « Consolidation & Défense Totale »
-
+### 🧭 Milestone
+- MantraLab v2.9 « ***Consolidation & Défense Totale*** »
+```text
 📌 Progression v1.0 → v2.9
-- [x] Structure complète du dépôt  
-- [x] Documentation structure.md + architecture.md  
-- [x] Licence MantraLab‑1.0  
-- [x] Modules OSINT / network / forensic  
-- [x] Scripts Python / Bash / PowerShell / C  
-- [x] Makefile militaire unifié  
-- [x] gitOPS discipliné  
-- [x] Workflows GitHub  
-- [x] Manifestes MDL‑1.0  
-- [x] Architecture ASCII complète  
-- [x] Disclaimers militaires  
-
-🟩 Statut
-✔️ Terminé
-
----
-
-🧩 Issue — Finalisation globale MantraLab v2.9
-
+>> 🟩 Statut ✔️ Terminé
+```
+### 🧩 Issue
+- MantraLab v2.9 « ***Finalisation globale*** »
+```text
 📌 Tâches
-- [x] Fondation du dépôt  
-- [x] Ajout modules & scripts  
-- [x] Documentation avancée  
-- [x] Manifestes MDL‑1.0  
-- [x] Automatisation gitOPS  
-- [x] Stabilisation architecture interne  
-- [x] Préparation roadmap v3.0  
+>> 🟩 Statut ✔️ Terminé
+```
 
-🎯 Critères d’acceptation
-- [x] Architecture stable  
-- [x] Documentation complète  
-- [x] Modules opérationnels  
-- [x] Automatisation fonctionnelle  
-- [x] Discipline militaire  
-
----
-
-🚀 Release — MantraLab v2.9 « Défense Totale »
-
-🧭 Résumé
-Version la plus aboutie de MantraLab : architecture militaire, documentation complète, automatisation gitOPS, modules cyber‑défensifs, manifestes MDL‑1.0, scripts disciplinaires et structure stabilisée.
-
+### 🚀 Release
+- MantraLab v2.9 « ***Défense Totale*** »
+>🧭 Résumé
+   - Version la plus aboutie de *MantraLab* : architecture et structure, documentation complète, automatisation gitOPS, modules cyber‑défensifs, manifestes MDL‑1.0, scripts disciplinaires et structure stabilisée.
+```text
 🆕 Added
-- [x] Structure complète  
-- [x] Modules OSINT / network / forensic  
-- [x] Scripts C + Makefile  
-- [x] Documentation structure.md + architecture.md  
-- [x] Manifestes MDL‑1.0  
-
 🛠️ Improved
-- [x] Architecture interne  
-- [x] Automatisation gitOPS  
-- [x] Documentation avancée  
-- [x] Workflows GitHub  
-
 🐛 Fixed
-- [x] Normalisation dossiers  
-- [x] Correction incohérences  
-- [x] Durcissement sécurité  
-
 🔮 Roadmap v3.0
-- [ ] Modules avancés cyber‑défense  
-- [ ] UI militaire dynamique  
-- [ ] Automatisation totale gitOPS v3  
-- [ ] Extensions OSINT + forensic  
-- [ ] Mode « BlackOps »  
+>> 🟩 Statut ✔️ Terminé
+```
 
----
-
-🧪 Auteur
-The MadDoG.tmdg  
-`text
+### 🧪 Auteur
+>The MadDoG.tmdg  
+```text
 Ingénierie Systèmes • Cyber‑Défense • OSINT • DevOps
-`
+```
 
-📜 Licence
+### 📜 Licence
 MantraLab est distribué sous MantraLab‑1.0, licence privée.  
 Voir le fichier LICENSE.
-
-`
-
----
