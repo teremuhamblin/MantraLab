@@ -1,5 +1,5 @@
 ###### README.md >> markdown
-###### ✅ Version 2.9 et mise à jour
+###### ✅ Version 3.0 stable
 ###### 🛡️ Recherche Tactique
 # ✅ MantraLab
 ```markdown
@@ -68,20 +68,20 @@
 ```
 
 ### 🧭 Milestone
-- MantraLab v2.9 « ***Consolidation & Défense Totale*** »
+- MantraLab v3.0 « ***Consolidation & Défense Totale*** »
 ```text
-📌 Progression v1.0 → v2.9
+📌 Progression v3.0
 >> 🟩 Statut ✔️ Terminé
 ```
 ### 🧩 Issue
-- MantraLab v2.9 « ***Finalisation globale*** »
+- MantraLab v3.0 « ***Finalisation globale*** »
 ```text
 📌 Tâches
 >> 🟩 Statut ✔️ Terminé
 ```
 
 ### 🚀 Release
-- MantraLab v2.9 « ***Défense Totale*** »
+- MantraLab v3.0 « ***Défense Totale*** »
 >🧭 Résumé
    - Version la plus aboutie de *MantraLab* : architecture et structure, documentation complète, automatisation gitOPS, modules cyber‑défensifs, manifestes MDL‑1.0, scripts disciplinaires et structure stabilisée.
 ```text
