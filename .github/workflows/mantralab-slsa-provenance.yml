@@ -33,7 +33,7 @@ jobs:
           make -f Makefile all || echo "Makefile non requis pour certains modules"
 
       - name: 🛡️ Génération provenance SLSA
-        uses: slsa-framework/slsa-github-generator/actions/generator@v2.0.0
+        uses: slsa-framework/slsa-github-generator/actions/generator@v2.1.0
         with:
           base64-subjects: ""
           upload-assets: true
