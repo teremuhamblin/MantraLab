@@ -18,7 +18,7 @@ MANTRALAB/
 │
 ├── docs/          → Documentation, playbooks, procédures
 │
-└── manifests/     → Manifestes, métadonnées, MDL‑1.0
+└── manifest/     → Manifestes, métadonnées, MDL‑1.0
 ```
 
 ---
