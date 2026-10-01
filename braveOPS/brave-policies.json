@@ -1,0 +1,11 @@
+{
+  "BrowserSignin": 0,
+  "PasswordManagerEnabled": false,
+  "SafeBrowsingProtectionLevel": 2,
+  "URLAllowlist": ["https://github.com/*"],
+  "URLBlocklist": ["http://*", "https://tracking.*"],
+  "DefaultCookiesSetting": 2,
+  "DefaultJavaScriptSetting": 2,
+  "DefaultPopupsSetting": 2,
+  "DefaultGeolocationSetting": 2
+}
