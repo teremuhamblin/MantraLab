@@ -5,6 +5,7 @@ Ce dossier contient l'ensemble des fichiers de configuration globaux du projet
 MantraLab. Il centralise les règles de normalisation, de discipline du code et
 de gestion des sources.
 
+```text
 .config/
 ├── README.rst
 ├── manifest.rst 
@@ -13,6 +14,7 @@ de gestion des sources.
 ├── .gitkeep
 ├── .gitattributes
 └── .gitignore
+```
 
 Contenu :
 - .editorconfig : normalisation des fichiers
