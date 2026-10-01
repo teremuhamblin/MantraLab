@@ -1,0 +1,43 @@
+---
+
+🎯 Milestone — MantraLab v3.0 — Stabilisation & Durcissement
+Objectif global : Consolidation du noyau cyber‑défense, durcissement GitOps, optimisation SLSA, préparation BlackOps v3.1.
+
+État : ✔️ En cours
+
+Checklist
+- ✔️ Durcissement GitOps v3.0  
+- ✔️ Mise à jour SLSA provenance  
+- ✔️ Révision des modules OSINT / Forensic  
+- ✔️ Optimisation des scripts C (deploy / audit / sync)  
+- ✔️ Documentation v3.0 minimaliste & opérationnelle  
+
+---
+
+🛡️ Issue — [v3.0] Durcissement GitOps + SLSA
+Description courte : Renforcer la chaîne de sécurité MantraLab v3.0 via GitOps discipliné et SLSA renforcé.
+
+Checklist
+- ✔️ Ajout des règles de commit v3.0  
+- ✔️ Mise à jour du workflow SLSA  
+- ✔️ Vérification des artefacts générés  
+- ✔️ Tests de conformité MDL‑1.0  
+- ✔️ Validation finale par audit.c  
+
+Priorité : Haute  
+Assigné : The MadDoG.tmdg  
+
+---
+
+🚀 Release — MantraLab v3.0 — Cyber‑Ops Stabilized Build
+Tag : v3.0.0  
+Status : ✔️ Publié
+
+Notes de version (courtes et efficaces)
+- ✔️ Architecture GitOps v3.0 stabilisée  
+- ✔️ Scripts C opérationnels (deploy/audit/sync)  
+- ✔️ SLSA provenance renforcée  
+- ✔️ Documentation revue & militarisée  
+- ✔️ Préparation BlackOps v3.1 initiée  
+
+---
