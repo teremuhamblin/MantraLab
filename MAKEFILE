@@ -1,0 +1,79 @@
+##############################################
+# 🛡️ MANTRALAB — Makefile (MIL‑PRO v2.0)
+# Compilation centralisée : deploy.c, audit.c, sync.c
+# Auteur : The MadDoG.tmdg
+##############################################
+
+# ----- CONFIGURATION -----
+CC      = gcc
+CFLAGS  = -Wall -Wextra -O2
+
+# Dossiers
+ROOT_DIR = MantraLab
+SRC_DIR  = $(ROOT_DIR)/gitOPS
+BIN_DIR  = $(ROOT_DIR)/bin
+
+# ----- BINAIRES -----
+DEPLOY_BIN = $(BIN_DIR)/deploy
+AUDIT_BIN  = $(BIN_DIR)/audit
+SYNC_BIN   = $(BIN_DIR)/sync
+
+# ----- SOURCES -----
+DEPLOY_SRC = $(SRC_DIR)/deploy.c
+AUDIT_SRC  = $(SRC_DIR)/audit.c
+SYNC_SRC   = $(SRC_DIR)/sync.c
+
+# ----- COULEURS -----
+GREEN  = \033[1;32m
+RED    = \033[1;31m
+YELLOW = \033[1;33m
+BLUE   = \033[1;34m
+RESET  = \033[0m
+
+# ----- REGLES -----
+
+all: banner prepare deploy audit sync
+	@echo "$(GREEN)[✔] Compilation complète MantraLab terminée.$(RESET)"
+
+banner:
+	@echo "$(BLUE)"
+	@echo "███╗   ███╗ █████╗ ███╗   ██╗████████╗██████╗  █████╗ ██╗      █████╗ ██████╗ "
+	@echo "████╗ ████║██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗"
+	@echo "██╔████╔██║███████║██╔██╗ ██║   ██║   ██████╔╝███████║██║     ███████║██████╔╝"
+	@echo "██║╚██╔╝██║██╔══██║██║╚██╗██║   ██║   ██╔══██╗██╔══██║██║     ██╔══██║██╔══██╗"
+	@echo "██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║   ██║  ██║██║  ██║███████╗██║  ██║██║  ██║"
+	@echo "╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝"
+	@echo "$(RESET)"
+
+prepare:
+	@mkdir -p $(BIN_DIR)
+	@echo "$(YELLOW)[~] Préparation des dossiers...$(RESET)"
+
+deploy: $(DEPLOY_SRC)
+	@echo "$(YELLOW)[~] Compilation de deploy.c...$(RESET)"
+	@$(CC) $(CFLAGS) $< -o $(DEPLOY_BIN)
+	@echo "$(GREEN)[✔] deploy compilé → $(DEPLOY_BIN)$(RESET)"
+
+audit: $(AUDIT_SRC)
+	@echo "$(YELLOW)[~] Compilation de audit.c...$(RESET)"
+	@$(CC) $(CFLAGS) $< -o $(AUDIT_BIN)
+	@echo "$(GREEN)[✔] audit compilé → $(AUDIT_BIN)$(RESET)"
+
+sync: $(SYNC_SRC)
+	@echo "$(YELLOW)[~] Compilation de sync.c...$(RESET)"
+	@$(CC) $(CFLAGS) $< -o $(SYNC_BIN)
+	@echo "$(GREEN)[✔] sync compilé → $(SYNC_BIN)$(RESET)"
+
+clean:
+	@echo "$(RED)[✖] Nettoyage des binaires...$(RESET)"
+	@rm -rf $(BIN_DIR)
+	@echo "$(GREEN)[✔] Nettoyage terminé.$(RESET)"
+
+help:
+	@echo "$(BLUE)Commandes disponibles :$(RESET)"
+	@echo "  make all     → Compile tous les outils GitOps"
+	@echo "  make deploy  → Compile deploy.c"
+	@echo "  make audit   → Compile audit.c"
+	@echo "  make sync    → Compile sync.c"
+	@echo "  make clean   → Supprime les binaires"
+	@echo "  make help    → Affiche cette aide"
