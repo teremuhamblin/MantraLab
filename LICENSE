@@ -1,0 +1,46 @@
+MantraLab Defense License – MantraLab‑1.0
+Auteur & Créateur : The MadDoG.tmdg
+Version : 1.0
+Date : 2026
+
+PREAMBULE
+MantraLab‑1.0 est une licence privée, propriétaire, conçue pour protéger la
+plateforme MantraLab, son moteur de recherche, ses modules internes, ses scripts
+propriétaires, ses playbooks et ses manifestes. Elle encadre l’usage défensif,
+l’intégration interne et la modification locale, tout en respectant les licences
+open‑source des outils tiers inclus dans la plateforme.
+
+ARTICLE 1 — OBJET
+La présente licence régit l’utilisation, la modification interne et la
+distribution contrôlée de la plateforme MantraLab.
+
+ARTICLE 2 — DROITS ACCORDÉS
+L’utilisateur est autorisé à :
+- utiliser MantraLab pour un usage personnel, professionnel interne ou défensif ;
+- modifier les scripts internes pour un usage local ;
+- intégrer MantraLab dans un environnement fermé ou militaire.
+
+ARTICLE 3 — RESTRICTIONS
+Il est strictement interdit de :
+- redistribuer publiquement MantraLab, en tout ou partie ;
+- revendre la plateforme ou ses composants propriétaires ;
+- effectuer un re‑branding ou un fork public de MantraLab ;
+- héberger MantraLab sur un service public sans accord écrit de The MadDoG.tmdg.
+
+ARTICLE 4 — OUTILS TIERS
+Les outils libres inclus dans MantraLab conservent leurs licences respectives.
+La présente licence ne modifie pas leurs droits.
+
+ARTICLE 5 — MENTIONS
+Toute utilisation interne doit conserver la mention :
+“Powered by MantraLab — The MadDoG.tmdg”
+
+ARTICLE 6 — RESPONSABILITÉ
+MantraLab est fourni “tel quel”, sans garantie. L’utilisateur assume les risques
+liés à son usage.
+
+ARTICLE 7 — CONTACT
+Pour toute demande de redistribution, intégration ou extension commerciale :
+The MadDoG.tmdg — MantraLab Division
+
+FIN DE LICENCE — MantraLab‑1.0
