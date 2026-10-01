@@ -4,21 +4,24 @@
 ```text
 MANTRALAB/
 │
-├── src/           → Moteur de recherche, modules internes
-│   ├── core/      → Indexation, analyse
-│   ├── api/       → Interfaces
-│   └── ui/        → Interface utilisateur
+├── git/ → Fichiers diciplinaires du depots
+├── gitOPS/ → Putils et automatisation du dépôt 
+├── .config/ → Dossier de configuration, configuration internes
+├── src/ → Moteur de recherche, modules internes
+│   ├── core/ → Indexation, analyse
+│   ├── api/ → Interfaces
+│   └── ui/ → Interface utilisateur
 │
-├── tools/         → Outils libres + modules MantraLab
+├── tools/ → Outils libres + modules MantraLab
 │   ├── osint/
 │   ├── network/
 │   └── forensic/
 │
-├── scripts/       → Scripts Python, Bash, PowerShell
+├── scripts/ → Scripts Python, Bash, PowerShell
 │
-├── docs/          → Documentation, playbooks, procédures
+├── docs/ → Documentation, playbooks, procédures
 │
-└── manifest/     → Manifestes, métadonnées, MDL‑1.0
+└── manifest/ → Manifestes, métadonnées, MDL‑1.0
 ```
 
 ---
