@@ -1,0 +1,41 @@
+##############################################
+# 🛡️ MANTRALAB — COMMIT_TEMPLATE.txt (MIL‑PRO)
+# Discipline des commits • Cyber‑Défense
+# Auteur : The MadDoG.tmdg
+##############################################
+
+# FORMAT OBLIGATOIRE
+# -------------------
+# [TYPE] Description courte et militaire
+#
+# Types autorisés :
+#   CORE      → Moteur de recherche / src/
+#   TOOL      → Outils / tools/
+#   SCRIPT    → Scripts / scripts/
+#   DOC       → Documentation / docs/
+#   CONF      → Configurations / .config/
+#   MANIFEST  → Manifestes / manifests/
+#   FIX       → Correction
+#   SEC       → Sécurité / durcissement
+#   OPT       → Optimisation
+#   CLEAN     → Nettoyage / discipline
+
+# EXEMPLES
+# --------
+# [CORE] Ajout du module d’indexation OSINT
+# [SEC] Durcissement du scanner réseau
+# [CONF] Mise à jour du pack .config
+# [TOOL] Ajout de l’outil de forensic mémoire
+
+# DESCRIPTION DÉTAILLÉE (optionnelle)
+# -----------------------------------
+# - Objectif du commit
+# - Impact sur le module
+# - Notes techniques
+# - Limitations éventuelles
+
+# SIGNATURE
+# ---------
+Signed-off-by: The MadDoG.tmdg <mantralab@local>
+Verified-by: MantraLab Defense System
+##############################################
