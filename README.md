@@ -68,8 +68,7 @@ Module dédié au durcissement du navigateur Brave pour les opérations cyber‑
 
 ### 📁 BraveOps
 - ***BraveOps/braveOPS/***
-### 🟩 Scripts BraveOps
->braveOPS.sh
+### 🟩 braveOPS.sh
 - Installation & Durcissement Brave
 ```text
 - ✔️ Installe Brave (Linux / Termux / Windows unattended)  
@@ -92,6 +91,7 @@ Module dédié au durcissement du navigateur Brave pour les opérations cyber‑
 <img src="https://img.shields.io/badge/DEFENSE-ACTIVE-ff0033?style=flat-square&logo=shield" />
 </p>
 
+```text
 - ✔️ uBlock Origin (Hard Mode)  
 - ✔️ NoScript (scripts bloqués par défaut)  
 - ✔️ ClearURLs  
@@ -101,6 +101,7 @@ Module dédié au durcissement du navigateur Brave pour les opérations cyber‑
 - ✔️ User-Agent Switcher (OSINT)  
 - ✔️ HTTPS Everywhere  
 - ✔️ TraceBlocker (BlackOps)  
+```
 
 ### 🛠️ Tools
 >Outils opérationnels
@@ -109,7 +110,7 @@ Module dédié au durcissement du navigateur Brave pour les opérations cyber‑
 <img src="https://img.shields.io/badge/TOOLS-v3.2-ff0033?style=flat-square&logo=terminal" />
 </p>
 
-Dossier regroupant les outils cyber‑défense MantraLab.
+- Dossier regroupant les outils cyber‑défense MantraLab.
 
 ### 📁 Structure
 ```text
@@ -135,7 +136,7 @@ tools/
 ``` 
 
 ### 🧬 GitOps & SLSA
-- Discipline & Sécurité
+>Discipline & Sécurité
 
 <p align="left">
 <img src="https://img.shields.io/badge/GITOPS-DURCI-ff0033?style=flat-square&logo=git" />
@@ -162,7 +163,7 @@ winget install --id Brave.Brave --silent --accept-package-agreements --accept-so
 ```
 
 ### 🛡️ Roadmap MantraLab
-- v3.2 → v3.3
+>v3.2 : version stable
 
 <p align="left">
 <img src="https://img.shields.io/badge/ROADMAP-v3.3-ff0033?style=flat-square&logo=target" />
