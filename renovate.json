@@ -1,0 +1,14 @@
+{
+  "extends": ["config:recommended"],
+  "timezone": "Europe/Paris",
+  "automerge": false,
+  "labels": ["bot", "automation"],
+  "commitMessagePrefix": "chore(renovate):",
+  "packageRules": [
+    {
+      "matchManagers": ["npm", "pip"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
+}
