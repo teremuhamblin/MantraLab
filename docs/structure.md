@@ -9,33 +9,33 @@ MantraLab/
 ├── .gitattribute
 ├── src/
 │   ├── README.rst
-│   ├── manifest.rst
-│   └── INFORMATIONS.rst
+│   ├── .gitkeep
+│   └── .gitkeep
 │
 ├── docs/
 │   ├── README.rst
-│   ├── manifest.rst
-│   └── INFORMATIONS.rst
+│   ├── .gitkeep
+│   └── .gitkeep
 │
 ├── tools/
 │   ├── README.rst
-│   ├── manifest.rst
-│   └── INFORMATIONS.rst
+│   ├── .gitkeep
+│   └── .gitkeep
 │
 ├── scripts/
 │   ├── README.rst
-│   ├── manifest.rst
-│   └── INFORMATIONS.rst
+│   ├── .gitkeep
+│   └── .gitkeep
 │
 ├── manifests/
 │   ├── README.rst
 │   ├── manifest.rst
-│   └── INFORMATIONS.rst
+│   └── information.rst
 │
 └── .github/
-    ├── README.rst
-    ├── manifest.rst
-    └── INFORMATIONS.rst
+    ├── workflows/
+    ├── PULL_REQUEST_TEMPLATE/
+    └── ISSUE_TEMPLATE/
 ```
 
 ### 🧪 Auteur
