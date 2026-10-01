@@ -5,9 +5,9 @@ Le pack GitOps de MantraLab fournit les outils nécessaires pour automatiser la
 discipline, l’audit et la synchronisation du dépôt.
 
 Contenu :
-- workflows/ : automatisation GitHub Actions
+- OPTION workflows/ : automatisation GitHub Actions
 - ops/ : scripts opérationnels
-- manifests/ : documentation GitOps
+- OPTION manifests/ : documentation GitOps
 
 Objectifs :
 - Automatiser la discipline Git
