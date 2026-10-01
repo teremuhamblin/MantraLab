@@ -5,8 +5,9 @@ MantraLab/
 │
 ├── README.md 
 ├── LICENSE
-├── .gitignore
-├── .gitattribute
+├── .gitedit
+├── .config/
+│   ├── README.rst
 ├── src/
 │   ├── README.rst
 │   ├── .gitkeep
