@@ -8,6 +8,7 @@ l’automatisation, le durcissement, le diagnostic et le support cyber‑défens
 - `templates/` — modèles réutilisables pour générer des modules ou outils
 - `utils/` — outils techniques complémentaires (hashing, logs, checks)
 - `brave/` — outils dédiés au module BraveOps (installation, durcissement, lancement)
+> ***A LA RACINE***
 
 ## 🎯 Objectifs
 - Automatiser les tâches répétitives
