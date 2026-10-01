@@ -11,6 +11,22 @@ Contenu :
 - hooks/ : scripts de contrôle automatique
 ```
 
+Résumé — Pack Git Avancé
+========================
+
+Le dossier git/discipline/advanced/ contient les modules de discipline avancée
+de MantraLab. Il renforce la sécurité, la conformité, l’audit et la structure
+opérationnelle du dépôt.
+
+Contenu : ADVANCED.rst
+- ADV_RULES.rst : discipline avancée
+- ADV_SECURITY.rst : sécurité avancée
+- ADV_COMPLIANCE.rst : conformité avancée
+- ADV_AUDIT.rst : audit avancé
+- ADV_OPERATIONS.rst : opérations avancées
+
+Ce pack assure une rigueur militaire totale dans la gestion du dépôt MantraLab.
+
 Auteur :
 The MadDoG.tmdg
 MantraLab Defense Division
