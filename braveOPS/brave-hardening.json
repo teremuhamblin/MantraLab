@@ -1,0 +1,21 @@
+{
+  "shields": {
+    "block_ads": "aggressive",
+    "block_trackers": true,
+    "cookie_blocking": "all",
+    "fingerprinting": "strict",
+    "https_only": true,
+    "script_blocking": true
+  },
+  "privacy": {
+    "webrtc_ip_protection": true,
+    "google_login_disabled": true,
+    "topics_api_disabled": true,
+    "dns_prefetch_disabled": true,
+    "autofill_disabled": true
+  },
+  "system": {
+    "hardware_acceleration": false,
+    "background_services": false
+  }
+}
