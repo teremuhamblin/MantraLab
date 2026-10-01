@@ -1,0 +1,13 @@
+##############################################
+# 🛡️ MANTRALAB — MERGE_TEMPLATE.txt (MIL‑PRO)
+##############################################
+
+Merge effectué entre :
+- Source : <branch>
+- Cible  : <branch>
+
+Résumé :
+<description militaire du merge>
+
+Validation :
+Signed-off-by: The MadDoG.tmdg
