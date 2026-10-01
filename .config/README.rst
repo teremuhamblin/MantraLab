@@ -1,9 +1,18 @@
-Pack .config — MantraLab
+Dossier .config — MantraLab
 ========================
 
 Ce dossier contient l'ensemble des fichiers de configuration globaux du projet
 MantraLab. Il centralise les règles de normalisation, de discipline du code et
 de gestion des sources.
+
+.config/
+├── README.rst
+├── manifest.rst 
+├── information.rst
+├── .editorconfig
+├── .gitkeep
+├── .gitattributes
+└── .gitignore
 
 Contenu :
 - .editorconfig : normalisation des fichiers
