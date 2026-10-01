@@ -1,6 +1,12 @@
+###### ~/docs/structure.md >> markdown 
+### 🧩 Structure 
 ```text
 MantraLab/
 │
+├── README.md 
+├── LICENSE
+├── .gitignore
+├── .gitattribute
 ├── src/
 │   ├── README.rst
 │   ├── manifest.rst
