@@ -1,0 +1,175 @@
+##############################################
+# 🛡️ MANTRALAB — .gitignore MIL‑PRO v1.0
+# Cyber‑Défense • Scripts • Tools • Manifests
+##############################################
+
+###############
+# 🔥 LOGS
+###############
+*.log
+*.log.*
+logs/
+log/
+tmp/
+temp/
+
+###############
+# ⚙️ TEMP / CACHE
+###############
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*.pid
+*.lock
+cache/
+__cache__/
+tmp/
+
+###############
+# 🐍 PYTHON
+###############
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+###############
+# 🐚 SHELL / SCRIPTS
+###############
+*.bash_history
+*.zsh_history
+*.swp
+*.swo
+*.orig
+
+###############
+# 📦 NODE / JS
+###############
+node_modules/
+.pnpm-store/
+.next/
+.nuxt/
+dist/
+.eslintcache
+
+###############
+# 🧰 MANTRALAB MODULES
+###############
+src/core/tmp/
+src/api/tmp/
+src/ui/tmp/
+tools/*/output/
+scripts/output/
+manifests/generated/
+
+###############
+# 📚 DOCUMENTATION
+###############
+docs/.cache/
+docs/.temp/
+_site/
+
+###############
+# 🧪 TESTS / COVERAGE
+###############
+coverage/
+.coverage
+htmlcov/
+pytest_cache/
+test-output/
+junit.xml
+
+###############
+# 🐳 DOCKER
+###############
+docker-data/
+*.tar
+*.img
+
+###############
+# 🔒 ENVIRONNEMENTS
+###############
+.env
+.env.*
+*.secret
+*.key
+venv/
+.venv/
+env/
+ENV/
+
+###############
+# 🖥️ SYSTEME / OS
+###############
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+###############
+# 🛠️ IDE / EDITORS
+###############
+.vscode/
+.idea/
+*.orig
+
+###############
+# ⚙️ CI/CD
+###############
+.github/workflows/*.tmp
+.github/workflows/*.bak
+.github/actions-cache/
+*.retry
+
+###############
+# 🛡️ MANTRALAB DEFENSE PACKS
+###############
+packs/*/cache/
+packs/*/tmp/
+packs/*/output/
+
+###############
+# 🧱 BINAIRES / ARCHIVES
+###############
+*.bin
+*.exe
+*.dll
+*.so
+*.a
+*.o
+*.pdf
+*.zip
+*.7z
+*.tar
+*.gz
+*.xz
+*.img
+*.iso
+
+###############
+# 🛰️ OSINT / CYBER‑TOOLS
+###############
+tools/osint/cache/
+tools/network/cache/
+tools/forensic/cache/
+tools/*/*.db
+tools/*/*.sqlite
+
+###############
+# 🪖 MILITARY FRAMEWORK (MantraLab‑Defense)
+###############
+intel/
+reports/
+ops/
+missions/
