@@ -1,0 +1,51 @@
+# ============================
+# MantraLab — .gitattributes
+# Discipline des sources & diff
+# ============================
+
+# Text files: normalize line endings
+* text=auto eol=lf
+
+# Enforce LF for key source & config files
+*.py   text eol=lf
+*.sh   text eol=lf
+*.ps1  text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.md   text eol=lf
+*.rst  text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini  text eol=lf
+
+# GitHub linguist: mark docs & manifests as documentation
+docs/*      linguist-documentation=true
+manifests/* linguist-documentation=true
+*.rst       linguist-documentation=true
+
+# Binary files: no diff
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.svg  text
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.7z   binary
+
+# Scripts: treat as text, but keep executable bit managed by git
+scripts/* text eol=lf
+
+# .github workflows: YAML normalized
+.github/**/*.yml  text eol=lf
+.github/**/*.yaml text eol=lf
+
+# Prevent CRLF pollution from Windows editors
+*.bat text eol=crlf
