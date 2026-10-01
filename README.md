@@ -49,7 +49,7 @@ MantraLab v3.2 fournit un environnement stable, minimaliste, sécurisé, reprodu
 ### 🛡️ BraveOps
 - Navigateur durci & furtif
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/BRAVEOPS-v3.2-ff0033?style=flat-square&logo=brave" />
 </p>
 
@@ -69,8 +69,8 @@ Module dédié au durcissement du navigateur Brave pour les opérations cyber‑
 ### 📁 BraveOps
 - ***BraveOps/braveOPS/***
 ### 🟩 Scripts BraveOps
-### 🟩 braveOPS.sh
-Installation & Durcissement Brave
+>braveOPS.sh
+- Installation & Durcissement Brave
 ```text
 - ✔️ Installe Brave (Linux / Termux / Windows unattended)  
 - ✔️ Applique le durcissement MantraLab  
@@ -88,7 +88,7 @@ Installation & Durcissement Brave
 
 ### 🧩 Extensions Défense
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/DEFENSE-ACTIVE-ff0033?style=flat-square&logo=shield" />
 </p>
 
@@ -105,7 +105,7 @@ Installation & Durcissement Brave
 ### 🛠️ Tools
 >Outils opérationnels
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/TOOLS-v3.2-ff0033?style=flat-square&logo=terminal" />
 </p>
 
@@ -126,16 +126,18 @@ tools/
 ```
 
 ### 🛠️ Outils inclus
+```text
 - ✔️ check-env.sh — Vérification environnement  
 - ✔️ hash-file.sh — SHA256/SHA512  
 - ✔️ log-ops.sh — Logger militaire  
 - ✔️ template-module.sh — Générateur de module  
-- ✔️ Scripts BraveOps  
+- ✔️ Scripts BraveOps
+``` 
 
 ### 🧬 GitOps & SLSA
 - Discipline & Sécurité
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/GITOPS-DURCI-ff0033?style=flat-square&logo=git" />
 <img src="https://img.shields.io/badge/SLSA-PROVENANCE-ff0033?style=flat-square&logo=lock" />
 </p>
@@ -162,10 +164,11 @@ winget install --id Brave.Brave --silent --accept-package-agreements --accept-so
 ### 🛡️ Roadmap MantraLab
 - v3.2 → v3.3
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/ROADMAP-v3.3-ff0033?style=flat-square&logo=target" />
 </p>
 
+```text
 - ✔️ Stabilisation GitOps  
 - ✔️ Durcissement BraveOps v3.2  
 - ✔️ Documentation tactique  
@@ -176,12 +179,15 @@ winget install --id Brave.Brave --silent --accept-package-agreements --accept-so
 - ⬜ Extensions furtives BlackOps+  
 - ⬜ Mode OSINT avancé v3.3  
 - ⬜ Module Forensic v3.3
+```
 
 ---
 
 ### ⚙️ Licence
+```LICENSE
 - MantraLab Defense License — MDL‑1.0  
 - Auteur : The MadDoG.tmdg
+```
 
 ---
 
