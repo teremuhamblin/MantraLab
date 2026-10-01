@@ -1,0 +1,20 @@
+{
+  "name": "mantralab",
+  "version": "0.0.0",
+  "description": "MantraLab v2.9 - Cyber Defense Platform",
+  "private": true,
+  "scripts": {
+    "release": "semantic-release"
+  },
+  "release": {
+    "branches": ["main"]
+  },
+  "devDependencies": {
+    "semantic-release": "^23.0.0",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^12.0.0",
+    "@semantic-release/github": "^10.0.0"
+  }
+}
