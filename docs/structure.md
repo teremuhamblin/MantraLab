@@ -8,6 +8,8 @@ MantraLab/
 ├── .gitedit
 ├── .git/
 │   ├── README.rst
+├── .gitOPS/
+│   ├── README.rst
 ├── .config/
 │   ├── README.rst
 ├── src/
