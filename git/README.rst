@@ -14,7 +14,7 @@ Contenu :
 Résumé — Pack Git Avancé
 ========================
 
-Le dossier git/discipline/advanced/ contient les modules de discipline avancée
+Le dossier git/discipline/ADVANCED.rst contient les modules de discipline avancée
 de MantraLab. Il renforce la sécurité, la conformité, l’audit et la structure
 opérationnelle du dépôt.
 
