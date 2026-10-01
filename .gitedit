@@ -1,0 +1,63 @@
+##############################################
+# 🛡️ MANTRALAB — .gitedit (MIL‑PRO v1.0)
+# Discipline des commits • Cyber‑Défense
+# Auteur : The MadDoG.tmdg
+##############################################
+
+# RÈGLES DE COMMIT
+# -----------------
+# Format obligatoire :
+#
+# [TYPE] Description courte
+#
+# Types autorisés :
+#   CORE      → Moteur de recherche / src/
+#   TOOL      → Outils / tools/
+#   SCRIPT    → Scripts / scripts/
+#   DOC       → Documentation / docs/
+#   CONF      → Configurations / .config/
+#   MANIFEST  → Manifestes / manifests/
+#   FIX       → Correction
+#   SEC       → Sécurité / durcissement
+#   OPT       → Optimisation
+#   CLEAN     → Nettoyage / discipline
+#
+# Exemple :
+#   [CORE] Ajout du module d’indexation OSINT
+#   [SEC] Durcissement du scanner réseau
+#   [CONF] Mise à jour du pack .config
+
+# RÈGLES DE DESCRIPTION
+# ---------------------
+# - Une ligne courte, claire, militaire
+# - Pas de phrases longues
+# - Pas de commit “misc”, “update”, “test”
+# - Chaque commit doit être traçable et opérationnel
+
+# RÈGLES DE STRUCTURE
+# --------------------
+# - Un commit = une action
+# - Pas de commits multiples non liés
+# - Pas de fichiers temporaires
+# - Pas de contenu non discipliné
+
+# RÈGLES DE SÉCURITÉ
+# -------------------
+# - Aucun secret, clé, token, mot de passe
+# - Aucun dump, log sensible, capture réseau brute
+# - Aucun fichier binaire non justifié
+
+# RÈGLES DE QUALITÉ
+# ------------------
+# - Code formaté selon .editorconfig
+# - Fichiers conformes à .gitattributes
+# - Fichiers ignorés par .gitignore non commités
+
+# SIGNATURE
+# ---------
+# Tous les commits doivent être signés :
+#   Signed-off-by: The MadDoG.tmdg <mantralab@local>
+#
+# Optionnel :
+#   Verified-by: MantraLab Defense System
+##############################################
