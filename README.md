@@ -126,6 +126,20 @@ tools/
 ├── utils/
 ```
 
+### 👥 AllContributors
+
+<a href="https://github.com/FantomOps">
+  <img src="https://avatars.githubusercontent.com/u/10000001?v=4" width="70" />
+</a>
+
+<a href="https://github.com/GhostUnit">
+  <img src="https://avatars.githubusercontent.com/u/10000002?v=4" width="70" />
+</a>
+
+<a href="https://github.com/ShadowEngineer">
+  <img src="https://avatars.githubusercontent.com/u/10000003?v=4" width="70" />
+</a>
+
 ### 🛠️ Outils inclus
 ```text
 - ✔️ check-env.sh — Vérification environnement  
