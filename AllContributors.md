@@ -1,5 +1,8 @@
 # MantraLab v3.0 — Contributors
 
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ### 🔥 Core Team
 - Major Hamblin — Architecte Système
 - Teremu — Lead CyberOps
