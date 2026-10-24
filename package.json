@@ -10,7 +10,7 @@
     "branches": ["main"]
   },
   "devDependencies": {
-    "semantic-release": "^23.0.0",
+    "semantic-release": "^25.0.9",
     "@semantic-release/commit-analyzer": "^11.0.0",
     "@semantic-release/release-notes-generator": "^14.1.1",
     "@semantic-release/changelog": "^6.0.0",
